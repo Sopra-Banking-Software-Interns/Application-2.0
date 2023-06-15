@@ -29,7 +29,7 @@ Once the application is executed you would be able to access the following APIs
 - Dogs API
 - IP API and many more
 
-The CLI interface makes this available at your command prompts and is similar in working to google assistant or Siri on smart phones, but for your CLI.
+The CLI interface makes this available at your command prompts and is similar in working to google assistant or Siri on smart phones, but for your CLI!
 
 
 
