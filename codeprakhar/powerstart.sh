@@ -3,7 +3,7 @@ echo "Press 2 to download a HD Astronomy image by NASA"
 read choice
 if(( $choice==1 ))
     then 
-        bash bucket_list_api.sh
+        bash codeprakhar/bucket_list_api.sh
     else
-        bash nasa_image_api.sh
+        bash codeprakhar/nasa_image_api.sh
 fi 
