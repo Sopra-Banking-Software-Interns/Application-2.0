@@ -6,6 +6,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run script file
-      run: |
-         ./codeprakhar/powerstart.sh
+      run: ./codeprakhar/powerstart.sh
       shell: bash
