@@ -13,7 +13,7 @@ arg7="Get image of Recipe"
 arg8="Get random food Joke"
 arg9="Get Random food Trivia"
 arg6="get recipe instructions"
-API_KEY=c807916b27964f2c8b5a61c28aee9078
+API_KEY=${{ secrets.FOOD_KEY}}
 select API1 in "$arg1" "$arg2" "$arg3" "$arg4" "$arg5" "$arg6" "$arg7" "$arg8" "$arg9" "$arg10" Back
 do
   case $API1 in
