@@ -36,6 +36,10 @@ The CLI interface makes this available at your command prompts and is similar in
 ## Authors
 
 - [@Riyu44](https://www.github.com/Riyu44)
+- [@Tushar-25](https://github.com/Tushar-2510)
+- [@Suvarchala-30](https://github.com/Suvarchala-30)
+- [@CodePrakhar](https://github.com/CodePrakhar)
+- [@navvay](https://github.com/navvay)
 
 
 ## Contributing
