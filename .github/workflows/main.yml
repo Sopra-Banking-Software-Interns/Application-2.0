@@ -7,5 +7,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run script file
       run: |
-         ./codeprakhar/powerstart.sh
+            chmod +x ./codeprakhar/powerstart.sh
+            ./codeprakhar/powerstart.sh
       shell: bash
