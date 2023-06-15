@@ -46,7 +46,7 @@ then
 fi
 if [ $choice -eq 4 ]
 then
-./riyu44/jokes.sh
+./riyu44/joke.sh
 fi
 
 elif [ $choice -eq 2 ]
