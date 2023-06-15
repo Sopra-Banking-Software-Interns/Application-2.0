@@ -48,5 +48,26 @@ if [ $choice -eq 4 ]
 then
 ./riyu44/jokes.sh
 fi
-fi
+
+elif [ $choice -eq 2 ]
+then
+PS3="Enter your choice ==> 
+-----(Press "Enter" to display the choices)-----
+"
+echo "Select a service you want to explore."
+select API in Bored? MEME? COCKTAIL? FOOD? exit
+do
+  case $API in
+    Bored?) 
+./TusharApis/BoredAPI.sh ;;
+    MEME?) 
+./TusharApis/meme.sh    ;;
+    COCKTAIL?)
+./TusharApis/cocktail.sh    ;;
+    FOOD?)
+./TusharApis/food.sh     ;;
+    exit)  echo "Exiting"; break ;;
+    *) echo "Invalid selection" ;;
+  esac
+done
 fi
