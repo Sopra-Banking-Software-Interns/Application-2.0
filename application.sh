@@ -35,6 +35,13 @@ echo "if you are interested in any of the below subjects press 4"
 echo "Create a bucketlist - Let's create a bucketlist"
 echo "Nasa images - let's explore space"
 
+echo
+echo
+
+echo "if you are interested in any of the below subjects press 5"
+echo "Want to play some card game :- Lets juggle the cards"
+echo "Want to explore about a word? - Lets play with interactive e Dictionary"
+
 read -p "Enter your choice: " choice
 
 if [ $choice -eq 1 ]
@@ -118,4 +125,20 @@ fi
 if [ $choice -eq 4 ]
 then
 ./codeprakhar/powerstart.sh
+fi
+
+if [ $choice -eq 5 ]
+then
+echo "What specificaly are you interested in?"
+echo "Want to play some card game :- Lets juggle the cards - type 1"
+echo "Want to explore about a word? - Lets play with interactive e Dictionary - type 2"
+read -p "Enter your choice: " choice1
+if [ $choice1 -eq 1 ]
+then
+./navvay/cardgame.sh
+fi
+if [ $choice1 -eq 2 ]
+then
+./navvay/dictionary.sh
+fi
 fi
