@@ -27,7 +27,9 @@ Once the application is executed you would be able to access the following APIs
 - Cocktail API
 - Food API
 - Dogs API
-- IP API and many more
+- IP API
+- card games
+- dictionary and many more
 
 The CLI interface makes this available at your command prompts and is similar in working to google assistant or Siri on smart phones, but for your CLI!
 
